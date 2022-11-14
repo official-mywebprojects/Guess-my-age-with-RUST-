@@ -2,6 +2,8 @@
 
 ## Just For Fun! :smiley: Play this interesting game built with RUST
 
+### Guess my age and set your age
+
 To run this program, you will need RUST installed on your machine.
 To check if you already have RUST on your machine, run `rustc --version` in your CLI or Terminal
 
