@@ -22,6 +22,7 @@ After successful installation, you should see a message like this:
 
 ### Now that you have RUST up and running,
 ##### - Make a copy of this repo
+##### - Download it to your machine by typing the command in Terminal `git clone git@github.com:official-mywebprojects/Guess-my-age-with-RUST-.git`
 ##### - Enter the guessing_game directory
 ##### - Compile and run the program with the command `cargo run`
 
