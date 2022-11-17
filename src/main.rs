@@ -3,7 +3,7 @@ use std::io;
 use std::cmp::Ordering;
 
 fn main() {
-    println!("\n\nGuess My Age GAME\n========\nHow old am I ??\n"); 
+    println!("\n\nGUESS MY AGE AND SET YOUR AGE: GAME\n===================================\nGuess My Age"); 
     //set your new age
     let my_age = 30;
 
@@ -50,8 +50,6 @@ fn main() {
             }; 
 
             let my_age = new_age;
-
-            println!("This is my_age {my_age} and this is new_age {new_age}");
             
             start_game(my_age); break;
         }
@@ -59,8 +57,8 @@ fn main() {
 
 
     fn start_game(xx: u32) {
-        println!("\n======= ALL SET =======\nYou New Age Is: {}", xx);
-        println!("\n\nNow set my_age on line 8 to your new age and let others guess it!");
+        println!("\n======= ALL SET =======\nYour New Age Is: {}", xx);
+        println!("\n\nNow set 'my_age' on line 8 to your new age and let others guess it!");
         end_game();
     }
 
